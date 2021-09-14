@@ -1,0 +1,38 @@
+.Title{
+display: flex;
+align-items: center;
+}
+.Title__img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+  
+    
+}
+.Title__container{
+    
+}
+.Title__h1{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+}
+.Title__h2{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+   color: rgb(185, 185, 185);
+
+}
+
+.Title__img--disable{
+
+
+  display: none;
+  
+  }

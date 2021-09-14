@@ -1,0 +1,33 @@
+.Song{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    .Song__img{
+        width: 200px;
+        height: max-content;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-right: 16px;
+        
+    }
+    .Song__container{
+        margin: 14px;
+     
+    }
+    .Song__h1{
+        font-family: sans-serif;
+        padding: 0;
+        margin: 0;
+       font-size: 24px;
+       color: rgb(255, 255, 255);
+    }
+    .Song__h2{
+        font-family: sans-serif;
+        font-weight: 200;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+       color: rgb(185, 185, 185);
+    
+    }

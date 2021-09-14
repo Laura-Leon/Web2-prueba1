@@ -1,0 +1,33 @@
+.Artist{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    .Artist__img{
+        width: 200px;
+        height: max-content;
+        object-fit: cover;
+        border-radius:50%;
+        margin-right: 16px;
+        
+    }
+    .Artist__container{
+        margin: 14px;
+     
+    }
+    .Artist__h1{
+        font-family: sans-serif;
+        padding: 0;
+        margin: 0;
+       font-size: 24px;
+       color: rgb(255, 255, 255);
+    }
+    .Artist__h2{
+        font-family: sans-serif;
+        font-weight: 200;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+       color: rgb(185, 185, 185);
+    
+    }
